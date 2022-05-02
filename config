@@ -1,0 +1,24 @@
+PY3_MODULE='PyYAML/5.1-GCCcore-8.2.0'
+#routes migration
+OLD_CLUSTER_URL=
+NEW_CLUSTER_URL=
+OLD_NFS_SERVER=
+OLD_NFS_PATH=
+NEW_NFS_SERVER=
+NEW_NFS_PATH=
+OLD_OC='/myoc/dev/3.4/bin/oc'
+NEW_OC='/usr/bin/oc'
+OLD_REGISTRY_FQDN='docker-registry-default.statwb.eu.examples.net'
+OLD_REGISTRY_URL='ipaddress-of-registry'
+NEW_REGISTRY_URL='image-registry.openshift-image-registry.svc:5000'
+OLD_ROUTE_BASENAME='statwb.examples.net'
+NEW_ROUTE_BASENAME='apps.busdevocp.examples.net'
+SCRIPT_TMP_BASEDIR="${HOME}/myoc/migration/temp"
+
+
+
+
+RED='\033[0;31m'
+NOCOLOR='\033[0m'
+PURPLE='\033[0;35m'
+
