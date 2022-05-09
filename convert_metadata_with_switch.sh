@@ -4,8 +4,7 @@
 # It uses a switch case to perform
 # either export or import options
 # ==================================================
-# Original code - Svetlana Babak (babaksv2)
-# Updated by - Anirudh Choudary (choudan1)
+
 # Updates:
 #       - Include "ARG USAGE" in CONFIG SECTION
 #       - Create a "FUNCTION DEFINITIONS" SECTION
@@ -23,12 +22,12 @@
 # ==================================================
 
 ########CONFIG#######################
-OLD_CLUSTER_URL='https://davinci-dev.eu.novartis.net:8443'
-NEW_CLUSTER_URL='https://davinci-int.eu.novartis.net:8443'
-OLD_NFS_SERVER='glchbs-sp180001.eu.novartis.net'
+OLD_CLUSTER_URL='https://www.example.com:8443'
+NEW_CLUSTER_URL='https://www.example.com:8443'
+OLD_NFS_SERVER='nfs.example.com'
 OLD_NFS_PATH='/sp180001_statwb_dev/'
-NEW_NFS_SERVER='glchbs-sp170024.eu.novartis.net'
-NEW_NFS_PATH='/DaVinciDev/data/registry/'
+NEW_NFS_SERVER='nfs.example.comt'
+NEW_NFS_PATH='/data/registry/'
 #PRJ='jhks'
 SCRIPT_TMP_DIR="${HOME}/pvmove_tmpdir"
 PY3_MODULE='Python/3.7.2-GCCcore-8.2.0'
