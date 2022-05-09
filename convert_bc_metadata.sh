@@ -94,7 +94,7 @@ if [ "${action}" != "import" ]; then
 
 
     echo -e "${PURPLE} Converting the git repo link ${NOCOLOR}"
-    sed -i "s#gitlabce.statwb.eu.novartis.net#gitlabce.apps.dit-prdocp.novartis.net#" ${SCRIPT_TMP_DIR}/${PRJ}/bc_new/bc.yaml
+    sed -i "s#gitlabce.example.com#gitlabce.apps.ocp4.example.com#" ${SCRIPT_TMP_DIR}/${PRJ}/bc_new/bc.yaml
 
     echo -e "${PURPLE}Logging out from the old cluster${NOCOLOR}"
     openshift_logout $OLD_OC
