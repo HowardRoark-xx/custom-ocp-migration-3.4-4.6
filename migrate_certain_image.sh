@@ -3,7 +3,6 @@
 
 ########CONFIG#######################
 source ./config
-#NEW_WORKER='phchbs-sd220588.eu.novartis.net'
 ########END OF CONFIG###############
 
 # ------------------ FUNCTION DEFINITIONS ----------------
